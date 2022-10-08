@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => getUserMedia(true, false)}>Activar microfono y video</button>
+      <button onClick={() => getUserMedia(true, true)}>Activar microfono y video</button>
       {/* <button onClick={() => getUserMedia(false, true)}>´Cancel</button> */}
       <video ref={localVideoRef} autoPlay></video>
     </div>
